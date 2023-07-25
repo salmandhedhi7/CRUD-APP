@@ -1,0 +1,318 @@
+*{
+    font-family: cursive;
+    font-weight: bold;
+    outline: none;
+}
+
+
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    row-gap: 2.5em;
+    padding: -12em 1em;
+    margin: 1em;
+    width: 90vw;
+    height: 60vw;
+}
+
+
+i,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0em;
+}
+
+
+.drop-down{
+    background-color: #000 ;
+    color: #212121;
+    border: 0px;
+    padding: 0em;
+    margin: 0em;
+}
+
+
+.drop-down-options{
+    color: #000;
+    border: 0px;
+}
+
+
+.list{
+    width: 8em;
+    margin: 0em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+a,
+.list>a{
+    color: #000;
+    text-decoration: none;
+    margin: 0.3em;
+}
+
+
+.icon{
+    margin-right: 0.5em;
+}
+
+
+row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    column-gap: 1em;
+}
+
+
+column,
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    row-gap: 1em;
+    width: 90%;
+}
+
+
+.button{
+    color: #f0ffff;
+    background-color: #212121;
+    width: 5em;
+    height: 2.5em;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-left: auto;
+}
+
+
+.button:active{
+    background-color: #313131;
+}
+
+
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+
+form{
+    align-items: start;
+    padding: 0em 2em;
+}
+
+
+.input{
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    color: #212121;
+    background-color: #f0ffff;
+    width: 90%;
+}
+
+
+::placeholder{
+    color: #000;
+}
+
+
+#text,
+.text{
+    height: 6em;
+}
+
+
+#text::-moz-scrollbar{
+    width: 4px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+
+#text::moz-scrollbar-thumb{
+    width: 4px;
+    border-radius: 5px;
+    background-color: #000;
+    border: none;
+}
+
+
+#text::moz-scrollbar-track{
+    background-color: #000;
+    border: none;
+}
+
+
+#text::-webkit-scrollbar-track{
+    background-color: #000;
+    border: none;
+}
+
+
+#text::-webkit-scrollbar{
+    width: 4px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+
+#text::-webkit-scrollbar-thumb{
+    width: 4px;
+    border-radius: 5px;
+    background-color: #000;
+    border: none;
+}
+
+
+.space-around{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5em;
+    padding: 0em;
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em 0em;
+}
+
+
+.post{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em 0em;
+}
+
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    row-gap: 1em;
+    width: 15em;
+    border: 2px dashed #212121;
+    background-color: #000;
+}
+
+
+.result>.post>p{
+    font-size: 0.9em;
+    width: 100%;
+    text-align: left;
+}
+
+
+.result>.post>row{
+    padding: 0em;
+    column-gap: 0.5em;
+}
+
+
+.regards{
+    font-size: 0.7em;
+}
+
+
+.scroll{
+    min-height: 1em;
+    max-height: 6em;
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 100%;
+}
+
+
+.scroll::-moz-scrollbar{
+    height: 2px;
+    width: 2px;
+    border-radius: 6px;
+    background-color: #000;
+}
+
+
+.scroll::-moz-scrollbar-thumb{
+    height: 2px;
+    width: 2px;
+    border-radius: 10px;
+    background-color: #212121;
+    border: none;
+}
+
+
+.scroll::-moz-scrollbar-track{
+    background-color: #fff;
+    border: none;
+}
+
+
+.scroll::-webkit-scrollbar-track{
+    background-color: #fff;
+    border: none;
+}
+
+
+.scroll::-webkit-scrollbar{
+    height: 2px;
+    width: 2px;
+    background-color: #fff;
+}
+
+
+.scroll::-webkit-scrollbar-thumb{
+    height: 2px;
+    width: 2px!important;
+    background-color: #212121;
+    border: none;
+}
+
+
+.scrollH{
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+}
+
+
+.scrollH::-moz-scrollbar{
+    width: 100%;
+    display: none;
+}
+
+
+.scrollH::-webkit-scrollbar{
+    width: 100%;
+    display: none;
+}
