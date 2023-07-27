@@ -6,18 +6,18 @@ let router = express.router
 
 router.get('/login', (req, res, next) => {
 
-    console.log('This Is Login!' , new Date());
+    console.log('this is login!' , new Date());
 
-    res.send('This Is login V1' + new Date());
+    res.send('this is login v1' + new Date());
 
 })
 
 
 router.get('/signup', (req, res, next) => {
 
-    console.log('This Is Login!' , new Date());
+    console.log('this is login!' , new Date());
 
-    res.send('This Is Login V1' + new Date());
+    res.send('this is login v1' + new Date());
    
 })
 
